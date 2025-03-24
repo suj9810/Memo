@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33326a86-ea04-4bae-9096-f6443eded445" name="Changes" comment="Refactor : lv6 장바구니 &amp; 주문 기능 구현 / 추가 랜덤 작명 기능 구현">
+      <change beforePath="$PROJECT_DIR$/../spring" beforeDir="false" afterPath="$PROJECT_DIR$/../spring" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="lv5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;suj9810&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="lv6" />
+                    <option name="lastUsedInstant" value="1741833375" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="lv5" />
+                    <option name="lastUsedInstant" value="1741769566" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="lv4" />
+                    <option name="lastUsedInstant" value="1741766975" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="lv3" />
+                    <option name="lastUsedInstant" value="1741524483" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="lv2" />
+                    <option name="lastUsedInstant" value="1741349231" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/suj9810/KioskProject.git&quot;,
+    &quot;accountId&quot;: &quot;59a6d83b-7cc4-4c8c-99cb-6d333f6d6673&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tylyciSnwvncDtE4lOGSLP8q8N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lv6&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/spartaProject/CalculatorProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.kiosk" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.kiosk.Main" />
+      <module name="KioskProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33326a86-ea04-4bae-9096-f6443eded445" name="Changes" comment="" />
+      <created>1741332453670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741332453670</updated>
+      <workItem from="1741332456157" duration="6418000" />
+      <workItem from="1741341866022" duration="8006000" />
+      <workItem from="1741414284598" duration="1874000" />
+      <workItem from="1741417268480" duration="33000" />
+      <workItem from="1741417309811" duration="114000" />
+      <workItem from="1741516438206" duration="6007000" />
+      <workItem from="1741565614315" duration="24450000" />
+      <workItem from="1741656956490" duration="49409000" />
+      <workItem from="1741827191168" duration="22889000" />
+      <workItem from="1741873851885" duration="29604000" />
+      <workItem from="1741920366529" duration="1775000" />
+      <workItem from="1741933423400" duration="941000" />
+      <workItem from="1741935551946" duration="34000" />
+      <workItem from="1742476219517" duration="7000" />
+    </task>
+    <task id="LOCAL-00001" summary="Test : git remote 테스트">
+      <option name="closed" value="true" />
+      <created>1741332601562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741332601562</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test : git remote 테스트">
+      <option name="closed" value="true" />
+      <created>1741332784916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741332784916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Feat: Kiosk Lv1 생성">
+      <option name="closed" value="true" />
+      <created>1741346834531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741346834531</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Feat: MenuItem Lv2 생성">
+      <option name="closed" value="true" />
+      <created>1741348003232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741348003232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Feat: Kiosk Lv3 완료">
+      <option name="closed" value="true" />
+      <created>1741524609562</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741524609562</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Feat: Kiosk Lv4 구현 &amp; 유효성 검사">
+      <option name="closed" value="true" />
+      <created>1741767037901</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1741767037901</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Comment: 전체 코드 주석">
+      <option name="closed" value="true" />
+      <created>1741768868286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741768868286</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactor : lv5 캡슐화 적용">
+      <option name="closed" value="true" />
+      <created>1741769937602</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741769937602</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix : git 파일 commit">
+      <option name="closed" value="true" />
+      <created>1741770524807</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741770524807</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Refactor : lv6 장바구니 &amp; 주문 기능 구현 / 추가 랜덤 작명 기능 구현">
+      <option name="closed" value="true" />
+      <created>1741916641191</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741916641191</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test : git remote 테스트" />
+    <MESSAGE value="Feat: Kiosk Lv1 생성" />
+    <MESSAGE value="Feat: MenuItem Lv2 생성" />
+    <MESSAGE value="Feat: Kiosk Lv3 완료" />
+    <MESSAGE value="Feat: Kiosk Lv4 구현 &amp; 유효성 검사" />
+    <MESSAGE value="Comment: 전체 코드 주석" />
+    <MESSAGE value="Refactor : lv5 캡슐화 적용" />
+    <MESSAGE value="Fix : git 파일 commit" />
+    <MESSAGE value="Refactor : lv6 장바구니 &amp; 주문 기능 구현 / 추가 랜덤 작명 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor : lv6 장바구니 &amp; 주문 기능 구현 / 추가 랜덤 작명 기능 구현" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="getTarotList()" language="JAVA" />
+        <watch expression="menu.menus" language="JAVA" />
+        <watch expression="menu.menus" />
+        <watch expression="menu.name" />
+        <watch expression="((Kiosk)this).menus" language="JAVA" custom="com.example.kiosk.Kiosk" />
+        <watch expression="naming" />
+        <watch expression="tarot.menuItemList.get(2)" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
