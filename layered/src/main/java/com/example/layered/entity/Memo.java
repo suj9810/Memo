@@ -9,7 +9,6 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Memo {
 
-    @Setter // class에 @Setter를 올릴 시 전체 필드를 사용하기 때문에 사용 필드에만 적용해야함.
     private Long id;
     private String title;
     private String contents;
